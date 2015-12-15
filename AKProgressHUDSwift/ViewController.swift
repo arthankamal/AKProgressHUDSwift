@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnShowProgressClicked(sender: AnyObject) {
-        
+        AKProgressHUD.sharedInstance.showProgress(self)
+//        AKProgressHUD.sharedInstance.hideProgress(self)
     }
 
 }

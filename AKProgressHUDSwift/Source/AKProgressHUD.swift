@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ProgressHUD {
+class AKProgressHUD {
 
-    static let sharedInstance = ProgressHUD()
+    static let sharedInstance = AKProgressHUD()
     private var progressView: ProgressHUDView
-    init() {
+    private init() {
         progressView = ProgressHUDView(frame: (UIApplication.sharedApplication().keyWindow?.frame)!)
         progressView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5)
         
@@ -26,7 +26,7 @@ class ProgressHUD {
         progressView.showProgressHUDView(forView)
     }
     
-    func hideProgress(forView: AnyObject) {
+    private func hideProgress(forView: AnyObject) {
         progressView.hidden = true
         progressView.hideProgressHUDView(forView)
     }
@@ -52,7 +52,7 @@ private class ProgressHUDView : UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func showProgressHUDView (forViewController: AnyObject) {
+    private func showProgressHUDView (forViewController: AnyObject) {
         if let view: UIView = forViewController.view {
             activityIndicator.center = view.center
         }
@@ -60,7 +60,7 @@ private class ProgressHUDView : UIView {
         activityIndicator.startAnimating()
     }
     
-    func hideProgressHUDView (forViewController: AnyObject) {
+    private func hideProgressHUDView (forViewController: AnyObject) {
         activityIndicator.stopAnimating()
     }
 

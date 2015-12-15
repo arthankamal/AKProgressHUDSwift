@@ -14,7 +14,7 @@
 		0FEB1EBF1C206840006DEDC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEB1EBD1C206840006DEDC5 /* LaunchScreen.storyboard */; };
 		0FEB1ECA1C206841006DEDC5 /* AKProgressHUDSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB1EC91C206841006DEDC5 /* AKProgressHUDSwiftTests.swift */; };
 		0FEB1ED51C206841006DEDC5 /* AKProgressHUDSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB1ED41C206841006DEDC5 /* AKProgressHUDSwiftUITests.swift */; };
-		0FEB1EE31C20700D006DEDC5 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB1EE21C20700D006DEDC5 /* ProgressHUD.swift */; };
+		0FEB1EE31C20700D006DEDC5 /* AKProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB1EE21C20700D006DEDC5 /* AKProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		0FEB1ED01C206841006DEDC5 /* AKProgressHUDSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKProgressHUDSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FEB1ED41C206841006DEDC5 /* AKProgressHUDSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKProgressHUDSwiftUITests.swift; sourceTree = "<group>"; };
 		0FEB1ED61C206841006DEDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FEB1EE21C20700D006DEDC5 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressHUD.swift; path = Source/ProgressHUD.swift; sourceTree = "<group>"; };
+		0FEB1EE21C20700D006DEDC5 /* AKProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AKProgressHUD.swift; path = Source/AKProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		0FEB1EB31C20683F006DEDC5 /* AKProgressHUDSwift */ = {
 			isa = PBXGroup;
 			children = (
-				0FEB1EE21C20700D006DEDC5 /* ProgressHUD.swift */,
+				0FEB1EE21C20700D006DEDC5 /* AKProgressHUD.swift */,
 				0FEB1EB41C206840006DEDC5 /* AppDelegate.swift */,
 				0FEB1EB61C206840006DEDC5 /* ViewController.swift */,
 				0FEB1EB81C206840006DEDC5 /* Main.storyboard */,
@@ -264,7 +264,7 @@
 			files = (
 				0FEB1EB71C206840006DEDC5 /* ViewController.swift in Sources */,
 				0FEB1EB51C206840006DEDC5 /* AppDelegate.swift in Sources */,
-				0FEB1EE31C20700D006DEDC5 /* ProgressHUD.swift in Sources */,
+				0FEB1EE31C20700D006DEDC5 /* AKProgressHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +491,7 @@
 				0FEB1EDB1C206841006DEDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FEB1EDC1C206841006DEDC5 /* Build configuration list for PBXNativeTarget "AKProgressHUDSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				0FEB1EDE1C206841006DEDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FEB1EDF1C206841006DEDC5 /* Build configuration list for PBXNativeTarget "AKProgressHUDSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +509,7 @@
 				0FEB1EE11C206841006DEDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
